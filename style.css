@@ -1,0 +1,52 @@
+.menu {
+	position: fixed; 
+	background-color: lightgray;  
+	left: 0; 
+	width: 100%; 
+	font-family: Roboto, Oxygen, Ubuntu, 'Open Sans', sans-serif;
+	color: gray;
+}
+
+#header {
+	top: 0;
+	font-size: 45pt;
+	text-align: center;
+}
+
+#footer {
+	bottom: 0;
+}
+.footContent {
+	margin-left: 5px;
+	margin-top: 2px;
+}
+
+#back {
+	font-size: 24px;
+	border: 0;
+	background-color: limegreen;
+	position: fixed;
+	left: 12px;
+	top: 12px; 
+}
+.body {
+	display: grid;
+	grid-template-columns: repeat(1fr, 2);
+	padding-top: 75px; 
+}
+
+iframe {
+	border: black 1px solid;
+}
+#info {
+	position: absolute;
+	left: 50%;
+	width: 48%;
+	top: 100px;
+}
+#feed {
+	position: absolute;
+	left: 1%;
+	width: 48%;
+	top: 100px;
+}
